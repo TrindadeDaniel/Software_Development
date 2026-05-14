@@ -1,4 +1,5 @@
 public class Circulo extends Forma2D {
+    
 
     public Circulo() {
         super();
@@ -16,7 +17,7 @@ public class Circulo extends Forma2D {
 
     @Override
     public String toString() {
-        return "Circulo [raio=" + getAltura() + ", nome=" + getNome() + "]";
+        return "Circulo [raio=" + (getAltura()/2) + ", nome=" + getNome() + "]";
     }
 
 }
